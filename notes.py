@@ -5,14 +5,14 @@ from sys import argv
 try: 
     script, filename = argv 
 except ValueError: 
-    print('You forgot the filename.')
+    print("You forgot the filename. (Don't forget file extension)")
 
-print ('')
-print ('[*] Welcome User!') 
-print ('[*] This is a simple note taking application.')
-print ('[*] Working File: ' + filename)
-print ('-----------------------------------------------') 
-print ('') 
+print ("")
+print ("[*] Welcome User!") 
+print ("[*] This is a simple note taking application.")
+print ("[*] Working File: " + filename)
+print ("-----------------------------------------------") 
+print ("") 
 
 f = open(filename, 'a')
 
