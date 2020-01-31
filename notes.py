@@ -1,5 +1,6 @@
 #! /usr/bin/python3
-
+# Simple notepad / text editor that can be run from the terminal. 
+# To run type 'python <filename> <text file.ext>'
 from sys import argv
 
 try: 
