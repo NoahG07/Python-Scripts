@@ -11,3 +11,5 @@ Collects the local IP and uses the [ipify API](ipify.org) to collect public IP a
 Small script to test network connectivity every 3 minutes.
 - notes.py  
 My horrible attempt at recreating a note/text app in the terminal.
+- pip-upgrade-V2.py  
+Simple GUI application that updates pip. Currently only works on Windows OS.
