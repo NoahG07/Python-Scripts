@@ -13,5 +13,5 @@ Small script to test network connectivity every 3 minutes.
 My horrible attempt at recreating a note/text app in the terminal.
 - pip-upgrade-V2.py  
 Simple GUI application that updates pip. Currently only works on Windows OS.
-- ZipCracker.py
+- ZipCracker.py  
 Small script to crack password protected zip files.
