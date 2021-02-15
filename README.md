@@ -16,4 +16,4 @@ Simple GUI application that updates pip. Currently only works on Windows OS.
 - ZipCracker.py  
 Small script to crack password protected zip files.
 - keylogger.py  
-Simple keylogger that can create local logs or email them to you. It is the creation of following this [Python Code Tutorial: How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python). I added my own code for the creation of a secret directory that stores the logs in Windows or Linux systems (hopefully works on Macs aswell).
+Simple keylogger that can create local logs or email them to you. It is the creation of following this [Python Code Tutorial: How to Make a Keylogger in Python](https://www.thepythoncode.com/article/write-a-keylogger-python). I added my own code for the creation of a secret directory that stores the logs in Windows or Linux systems (hopefully works on Macs aswell). I also created a function that pops open an error window to 'trick' the user whose machine it runs on. (Hint: If you change it to a '.pyw' file, no terminals will pop up).
